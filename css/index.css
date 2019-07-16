@@ -1,0 +1,112 @@
+body, .bottom-page {
+	color: #ffffff;
+	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
+}
+header {
+	background-image: url('../img/blackmesss.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 45em;
+	height: 45em;
+	border-bottom: 2px solid white;
+}
+body {
+	background-color: #000000;
+}
+.greet {
+	padding: 1.5em;
+	font-size: 6em;
+	text-align: center;
+	border-bottom: 2px solid white;
+	background-image: linear-gradient(135deg,
+						transparent,
+						transparent 14px,
+						rgba(192, 192, 192, 0.1) 14px,
+                        rgba(192, 192, 192, 0.1) 15px,
+                        transparent 15px,
+                        transparent););
+	background-size: 20px 20px;
+	background-attachment: fixed;
+	border-top: .1em solid #fff;
+	border-bottom: .1em solid #fff;
+	height: 4em;
+}
+.greet:hover,
+.greet:focus {
+	text-shadow: 0 0 3px white;
+	transition-delay: .4s;
+}
+.shows {
+	padding: 2em;
+	font-size: 1.3em;
+	border-collapse: separate;
+	border-spacing: 1.5em;
+	width: 100%;
+	border-bottom: 2px solid white;
+	text-align: center;
+}
+.bottom-page {
+	padding: 2em 1em;
+}
+.shows td {
+	vertical-align: middle;
+	border-bottom: 0.1px solid white;
+	padding-bottom: 1.5em;
+}
+.navigation {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+li a {
+	display: block;
+	width: 100px;
+	margin: 0 10px;
+	padding-top: 4em;
+	padding-bottom: 3em;
+	text-decoration: none;
+	color: #ffffff;
+}
+li {
+	display: inline;
+	float: right;
+}
+li a:hover,
+li a:focus {
+	opacity: .5;
+}
+h1 {
+	text-transform: uppercase;
+	font-family: Oswald, Dosis, sans-serif;
+	font-size: 3em;
+	padding: 1.5em 1.5em;
+}
+.album {
+	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
+	font-size: 6em;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 3em;
+	padding-top: 1em;
+}
+.button {
+	background-color: transparent;
+	border: 2px solid white;
+	padding: .5em;
+	text-align: center;
+	font-size: 1.5em;
+	position: relative;
+	left: 45%;
+	bottom: 8em;
+	margin: auto;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+.button:hover,
+.button:focus {
+	background-color: white;
+	color: black;
+}
