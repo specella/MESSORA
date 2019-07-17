@@ -1,6 +1,7 @@
 body, .bottom-page {
 	color: #ffffff;
 	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
+	font-size: 100%;
 }
 header {
 	background-image: url('../img/blackmesss.png');
@@ -9,7 +10,6 @@ header {
 	background-attachment: fixed;
 	background-size: 45em;
 	height: 45em;
-	border-bottom: 2px solid white;
 }
 body {
 	background-color: #000000;
@@ -18,7 +18,6 @@ body {
 	padding: 1.5em;
 	font-size: 6em;
 	text-align: center;
-	border-bottom: 2px solid white;
 	background-image: linear-gradient(135deg,
 						transparent,
 						transparent 14px,
@@ -43,7 +42,6 @@ body {
 	border-collapse: separate;
 	border-spacing: 1.5em;
 	width: 100%;
-	border-bottom: 2px solid white;
 	text-align: center;
 }
 .bottom-page {
@@ -59,6 +57,13 @@ body {
 	color: white;
 	font-weight: bold;
 }
+.navigation ul {
+	position: absolute;
+	right: 0;
+    display: table;
+    z-index: 3000;
+    vertical-align: middle;
+}
 li a {
 	display: block;
 	width: 100px;
@@ -69,14 +74,14 @@ li a {
 	color: #ffffff;
 }
 li {
-	display: inline;
-	float: right;
+	display: table-cell;
+    vertical-align: middle;
 }
 li a:hover,
 li a:focus {
 	opacity: .5;
 }
-h1 {
+.main-title {
 	text-transform: uppercase;
 	font-family: Oswald, Dosis, sans-serif;
 	font-size: 3em;
@@ -86,8 +91,8 @@ h1 {
 	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
 	font-size: 6em;
 	text-align: center;
-	text-transform: uppercase;
 	padding: 3em;
+	text-transform: uppercase;
 	padding-top: 1em;
 }
 .button {
@@ -97,16 +102,24 @@ h1 {
 	text-align: center;
 	font-size: 1.5em;
 	position: relative;
-	left: 45%;
-	bottom: 8em;
 	margin: auto;
+	bottom: 8em;
+	width: 10%;
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: bold;
+	display: block;
+	border-radius: 5px;
 }
 .button:hover,
 .button:focus {
 	background-color: white;
+	transition: background-color 2s, color 1s;
 	color: black;
+}
+.bottom-page {
+	background-color: #111111;
+	opacity: .5;
+	width: 100%;
 }
