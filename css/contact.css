@@ -61,14 +61,15 @@ button {
 	background-color: transparent;
 	color: #ffffff;
 	border: 2px solid white;
-	padding: .5em;
+	padding: .5em 1em;
 	text-align: center;
 	font-size: 1.5em;
 	display: block;
 	bottom: 8em;
 	border-radius: 5px;
-	margin-top: 1em;
+	margin-top: .5em;
 	font-weight: bold;
+	width: 15%;
 }
 button:hover,
 button:focus {
