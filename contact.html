@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:500">
+	<title>Messora</title>
+</head>
+<body>
+	<main class="background">
+		<nav class="navigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<img class="main-title" src="img/logo.png">
+		</nav>
+		<div class="contact">Contact</div>
+		<div class="container">
+			<form>
+				<fieldset>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="Your name" input pattern="[A-Za-zç ']" autofocus required>
+					<label for="email">Email</label>
+					<input type="text" id="email" name="email" placeholder="your@email.com" required="">
+				</fieldset>
+				<fieldset>
+					<label for="msg"> Message</label>
+					<textarea id="msg" name="message" cols="60" rows="10" placeholder="Type your message here" required></textarea>
+					<button type="submit">Send</button>
+				</fieldset>
+			</form>
+		</div>
+	</main>
+	<footer class="bottom-page">
+		&copy; Messora 2019
+	</footer>
+</body>
+</html>

@@ -1,18 +1,10 @@
-body, .bottom-page {
-	color: #ffffff;
-	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
-	font-size: 100%;
-}
 header {
-	background-image: url('../img/blackmesss.png');
+	background-image: url('../img/blackmess-definitivo.png');
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: 75% top;
 	background-attachment: fixed;
 	background-size: 45em;
 	height: 45em;
-}
-body {
-	background-color: #000000;
 }
 .greet {
 	padding: 1.5em;
@@ -44,49 +36,12 @@ body {
 	width: 100%;
 	text-align: center;
 }
-.bottom-page {
-	padding: 2em 1em;
-}
 .shows td {
 	vertical-align: middle;
 	border-bottom: 0.1px solid white;
 	padding-bottom: 1.5em;
 }
-.navigation {
-	text-transform: uppercase;
-	color: white;
-	font-weight: bold;
-}
-.navigation ul {
-	position: absolute;
-	right: 0;
-    display: table;
-    z-index: 3000;
-    vertical-align: middle;
-}
-li a {
-	display: block;
-	width: 100px;
-	margin: 0 10px;
-	padding-top: 4em;
-	padding-bottom: 3em;
-	text-decoration: none;
-	color: #ffffff;
-}
-li {
-	display: table-cell;
-    vertical-align: middle;
-}
-li a:hover,
-li a:focus {
-	opacity: .5;
-}
-.main-title {
-	text-transform: uppercase;
-	font-family: Oswald, Dosis, sans-serif;
-	font-size: 3em;
-	padding: 1.5em 1.5em;
-}
+
 .album {
 	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
 	font-size: 6em;
@@ -117,9 +72,4 @@ li a:focus {
 	background-color: white;
 	transition: background-color 2s, color 1s;
 	color: black;
-}
-.bottom-page {
-	background-color: #111111;
-	opacity: .5;
-	width: 100%;
 }

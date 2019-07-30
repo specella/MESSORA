@@ -1,0 +1,78 @@
+.background {
+	background-image: url('../img/blackmess-definitivo.png');
+	background-repeat: no-repeat;
+	background-position: 75% top;
+	background-attachment: fixed;
+	background-size: 45em;
+	height: 45em;
+}
+.contact {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: black;
+	border: 1px solid white;
+	text-align: center;
+	margin: auto;
+	padding: .5em;
+	padding-bottom: 1.5em;
+	width: 720px;
+	height: 10px;
+	box-sizing: border-box;
+}
+.container {
+	text-transform: uppercase;
+	width: 720px;
+	height: 300px;
+	margin: auto;
+	padding: 30px 0;
+	box-sizing: border-box;
+}
+
+label[for] {
+	display: inline-block;
+	color: #ffffff;
+	padding: 1em 0 1em 0;
+}
+label[for="name"] {
+	padding-top: 0;
+	width: 2.8em;
+}
+label[for="email"] {
+	width: 2.8em;
+}
+input[type="text"],
+input[type="email"] {
+	width: calc(100% - 3em);
+}
+textarea {
+	width: 100%;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+	font-size: 100%;
+	padding: .25em .5em;
+	box-sizing: border-box;
+}
+button {
+	text-transform: uppercase;
+	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
+	background-color: transparent;
+	color: #ffffff;
+	border: 2px solid white;
+	padding: .5em;
+	text-align: center;
+	font-size: 1.5em;
+	display: block;
+	bottom: 8em;
+	border-radius: 5px;
+	margin-top: 1em;
+	font-weight: bold;
+}
+button:hover,
+button:focus {
+	background-color: white;
+	transition: background-color 2s, color 1s;
+	color: black;
+}

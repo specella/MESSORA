@@ -1,0 +1,52 @@
+body {
+	background-color: #000000;
+}
+
+body, .bottom-page {
+	color: #ffffff;
+	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
+	font-size: 100%;
+}
+.navigation {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+.navigation ul {
+	position: absolute;
+	right: 0;
+    display: table;
+    z-index: 3000;
+    vertical-align: middle;
+}
+li a {
+	display: block;
+	width: 100px;
+	margin: 0 10px;
+	padding-top: 4em;
+	padding-bottom: 3em;
+	text-decoration: none;
+	color: #ffffff;
+}
+li {
+	display: table-cell;
+    vertical-align: middle;
+}
+li a:hover,
+li a:focus {
+	opacity: .5;
+}
+.main-title {
+	text-transform: uppercase;
+	font-family: Oswald, Dosis, sans-serif;
+	font-size: 3em;
+	padding: 1.5em 1.5em;
+}
+.bottom-page {
+	margin-top: 80px;
+	padding: 2em 1em;
+	background-color: #111111;
+	opacity: .5;
+	width: 100%;
+}
+
