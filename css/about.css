@@ -1,0 +1,29 @@
+h1 {
+	text-transform: uppercase;
+	font-size: 50px;
+	clear: both;
+	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 720px;
+	height: 300px;
+	margin: auto;
+	padding: 30px 0;
+	box-sizing: border-box;
+	font-size: 15px;
+	line-height: 1.5;
+	font-weight: none;
+	font-family: Lato, Dosis, Open Sans Condensed, sans-serif;
+	text-align: justify;
+	margin-bottom: 80px;
+}
+.live {
+	display: block;
+	margin-top: 15em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+}

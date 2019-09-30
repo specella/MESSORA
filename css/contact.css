@@ -1,11 +1,3 @@
-.background {
-	background-image: url('../img/blackmess-definitivo.png');
-	background-repeat: no-repeat;
-	background-position: 75% top;
-	background-attachment: fixed;
-	background-size: 45em;
-	height: 45em;
-}
 .contact {
 	font-size: 1.5em;
 	text-transform: uppercase;
@@ -76,4 +68,14 @@ button:focus {
 	background-color: white;
 	transition: background-color 2s, color 1s;
 	color: black;
+}
+#error-message li {
+	display: block;
+	background-color: black;
+	color: red;
+	width: 25%;
+}
+/* input[aria-invalid="true"], textarea[aria-invalid="true"] {
+	border: 1px solid #f00;
+	box-shadow: 0 0 4px 0 #f00;
 }
