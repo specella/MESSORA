@@ -53,11 +53,12 @@
 	bottom: 8em;
 	width: 10%;
 	color: white;
-	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: bold;
 	display: block;
 	border-radius: 5px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #000;
 }
 .button:hover,
 .button:focus {

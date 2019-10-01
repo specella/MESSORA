@@ -49,6 +49,7 @@ textarea {
 }
 button {
 	text-transform: uppercase;
+	text-shadow: 1px 1px #000;
 	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
 	background-color: transparent;
 	color: #ffffff;
