@@ -19,17 +19,12 @@ h1 {
 }
 .live {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	margin-top: 30%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 55%
-}
-.live li {
-	flex: auto;
-}
-.live img {
-	width: 100%;
+	margin-top: 35%;
+	clear: both;
 }
 .quote {
 	background-image: linear-gradient(135deg,
