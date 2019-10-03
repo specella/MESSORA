@@ -19,6 +19,7 @@ body, .bottom-page {
 	text-transform: uppercase;
 	color: white;
 	font-weight: bold;
+	padding-right: 2%;
 }
 .navigation ul {
 	position: absolute;
@@ -26,6 +27,7 @@ body, .bottom-page {
     display: table;
     z-index: 3000;
     vertical-align: middle;
+    text-shadow: 2px 2px #000;
 }
 li a {
 	display: block;
@@ -49,7 +51,7 @@ li a:focus {
 	text-transform: uppercase;
 	font-family: Oswald, Dosis, sans-serif;
 	font-size: 3em;
-	padding: 1.5em 1.5em;
+	padding: 1em 1em;
 }
 .bottom-page {
 	margin-top: 80px;
