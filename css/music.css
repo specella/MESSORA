@@ -1,0 +1,18 @@
+.songkick {
+	max-width: 100%;
+	position: relative;
+	padding-bottom:calc(56.25% + 52px);
+	height: 0;
+}
+.songkick iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60%; 
+	height: 60%;
+}
+.bandcamp iframe {
+	border: 0; 
+	width: 350px; 
+	height: 470px;
+}
