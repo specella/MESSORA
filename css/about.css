@@ -1,4 +1,4 @@
-h1 {
+.title {
 	font-size: 50px;
 	clear: both;
 	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
@@ -52,11 +52,7 @@ h1 {
 	text-shadow: 0 0 3px white;
 	transition-delay: .4s;
 }
-
 cite {
 	font-style: italic;
 	float: right;
-}
-.title {
-	clear: both;
 }

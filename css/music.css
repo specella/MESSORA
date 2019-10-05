@@ -4,15 +4,80 @@
 	padding-bottom:calc(56.25% + 52px);
 	height: 0;
 }
-.songkick iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 60%; 
-	height: 60%;
-}
 .bandcamp iframe {
 	border: 0; 
 	width: 350px; 
-	height: 470px;
+	height: 680px;
+	padding-left: 10%;
+	display: inline-block;
+	float: left;
+}
+.platform-icons li {
+	display: table-cell;
+    vertical-align: middle;
+}
+.platform-icons a {
+	width: 100px;
+	height: 100px;
+	text-indent: -99999px;
+	display: inline-block;
+}
+.platform-icons ul {
+	position: absolute;
+	right: 0;
+    display: table;
+    z-index: 3000;
+    vertical-align: middle;
+}
+.cover img {
+	width: 30%;
+	float: left;
+	padding: 0 10% 0 15%;
+
+}
+.cover {
+	height: 300px;
+	margin: auto;
+	padding: 30px 0;
+	box-sizing: border-box;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.songwhip {
+	position: absolute;
+	right: 0;
+    display: table;
+    z-index: 3000;
+    vertical-align: middle;
+
+}
+.spotify {
+	background-image: url(../img/spotify.png);
+	background-repeat: no-repeat;
+}
+.itunes {
+	background-image: url(../img/itunes.png);
+	background-repeat: no-repeat;
+}
+.youtube {
+	background-image: url(../img/youtube.png);
+	background-repeat: no-repeat;
+
+}
+.amazon {
+	background-image: url(../img/amazon.png);
+	background-repeat: no-repeat;
+}
+main {
+	padding-bottom: 80px;
+	flex-grow: 1;
+}
+h1, h2 {
+	font-size: 50px;
+	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
+	clear: right;
+	padding-left: 43%;
+}
+h2 {
+	font-size: 30px;
 }
