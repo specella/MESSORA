@@ -12,44 +12,16 @@
 	display: inline-block;
 	float: left;
 }
-.platform-icons li {
-	display: table-cell;
-    vertical-align: middle;
-}
-.platform-icons a {
-	width: 100px;
-	height: 100px;
-	text-indent: -99999px;
-	display: inline-block;
-}
-.platform-icons ul {
-	position: absolute;
-	right: 0;
-    display: table;
-    z-index: 3000;
-    vertical-align: middle;
+.cover {
+	padding-top: 40px;
+	background-color: #000000;
+	opacity: .9;
 }
 .cover img {
-	width: 30%;
+	width: 32%;
+	padding-left: 15%;
+	padding-top: 5px;
 	float: left;
-	padding: 0 10% 0 15%;
-
-}
-.cover {
-	height: 300px;
-	margin: auto;
-	padding: 30px 0;
-	box-sizing: border-box;
-	font-size: 15px;
-	line-height: 1.5;
-}
-.songwhip {
-	position: absolute;
-	right: 0;
-    display: table;
-    z-index: 3000;
-    vertical-align: middle;
-
 }
 .spotify {
 	background-image: url(../img/spotify.png);
@@ -62,11 +34,35 @@
 .youtube {
 	background-image: url(../img/youtube.png);
 	background-repeat: no-repeat;
-
 }
 .amazon {
 	background-image: url(../img/amazon.png);
 	background-repeat: no-repeat;
+}
+.songwhip {
+	background-image: url(../img/songwhip.png);
+	background-repeat: no-repeat;
+}
+.platform-icons {
+	margin: 15px;
+	padding-left: 49%;
+
+}
+.platform-icons li a:hover,
+.platform-icons li a:focus {
+	opacity: .5;
+		filter: alpha(opacity=50);
+	box-shadow: 3px 0 2px white;
+	border-radius: 50%;
+}
+.platform-icons li {
+	display: inline-block;
+}
+.platform-icons a {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
 }
 main {
 	padding-bottom: 80px;
@@ -76,8 +72,23 @@ h1, h2 {
 	font-size: 50px;
 	font-family: Dosis, Open Sans Condensed, Lato, sans-serif;
 	clear: right;
-	padding-left: 43%;
+	padding-left: 50%;
 }
 h2 {
 	font-size: 30px;
+}
+strong {
+	text-transform: uppercase;
+}
+p, .number {
+	font-family: Lato, Dosis, Open Sans Condensed, sans-serif;
+}
+.tracklist {
+	padding-left: 50%;
+	height: 300px;
+	line-height: 1.5em;
+}
+.box {
+	background-color: #000000;
+
 }

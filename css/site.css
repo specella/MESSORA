@@ -27,7 +27,7 @@ body, .bottom-page {
     vertical-align: middle;
     text-shadow: 2px 2px #000;
 }
-li a {
+.navigation li a {
 	display: block;
 	width: 100px;
 	margin: 0 10px;
@@ -36,12 +36,12 @@ li a {
 	text-decoration: none;
 	color: #ffffff;
 }
-li {
+.navigation li {
 	display: table-cell;
     vertical-align: middle;
 }
-li a:hover,
-li a:focus {
+.navigation li a:hover,
+.navigation li a:focus {
 	opacity: .5;
 		filter: alpha(opacity=50);
 }
@@ -61,7 +61,7 @@ li a:focus {
 	position: absolute;
 	bottom: 0;
 }
-h1 {
+h1, h2 {
 	text-transform: uppercase;
 	text-shadow: 2px 2px #000;
 }
