@@ -14,8 +14,7 @@
 }
 .cover {
 	padding-top: 40px;
-	background-color: #000000;
-	opacity: .9;
+	background-color: rgba(0,0,0, 0.9);
 }
 .cover img {
 	width: 32%;
@@ -46,7 +45,6 @@
 .platform-icons {
 	margin: 15px;
 	padding-left: 49%;
-
 }
 .platform-icons li a:hover,
 .platform-icons li a:focus {
@@ -91,4 +89,8 @@ p, .number {
 .box {
 	background-color: #000000;
 
+}
+img#fullop {
+	opacity: 1;
+	background-color: rgba(0,0,0,1);
 }

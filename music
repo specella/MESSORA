@@ -17,17 +17,21 @@
 	<main class="background">
 		<nav class="navigation">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="music.html">Music</a></li>
-				<li><a href="about.html">About</a></li>
+				<li><a href="index">Home</a></li>
+				<li><a href="music">Music</a></li>
+				<li><a href="about">About</a></li>
 				<li><a href="https://messora.bandcamp.com">Store</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="contact">Contact</a></li>
 			</ul>
+		<a href="index">
 			<img class="main-title" src="img/logo2.png">
+		</a>
 		</nav>
 
 		<div class="cover">
-			<img src="img/mossoro-definitivo.jpg">
+			<div>
+				<img id="fullop" src="img/mossoro-definitivo.jpg">
+			</div>
 			<h1>The Door</h1>
 			<h2 class="number">2019</h2>
 
