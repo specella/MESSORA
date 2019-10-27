@@ -29,7 +29,7 @@
 		</nav>
 		<div class="contact">Contact</div>
 		<div class="container">
-			<form action="#" method="get" name="contactForm" autocomplete="on">
+			<form action="contact-form-handler.php" method="post" name="contactForm" autocomplete="on">
 			  <fieldset>
 			      <label for="name" title="Required">Name</label>
 			      <input type="text" id="name" name="name" autofocus required="required"
@@ -53,7 +53,7 @@
 			              aria-required="true"
 			              spellcheck="true"></textarea>
 			      <ul id="error-message"></ul>
-			      <button id="send" type="submit">Send</button>
+			      <button id="send" type="submit" value="submit">Send</button>
 			  </fieldset>
 			</form>
 		</div>
