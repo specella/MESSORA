@@ -24,6 +24,7 @@
 	margin-right: auto;
 	margin-top: 35%;
 	clear: both;
+	box-sizing: border-box;
 }
 .quote {
 	background-image: linear-gradient(135deg,
