@@ -10,7 +10,7 @@ contact.addEventListener("click", function(event) {
 	if(erros.length > 0) {
 		exibeErro(erros);
 		return;
-	}else if(erros.length = 0) {
+	}else if(erros.length == 0) {
 		sendForm();
 	}
 
