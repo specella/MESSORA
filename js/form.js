@@ -1,9 +1,10 @@
-var contact = document.querySelector("#send");
+var action = document.querySelector("#send");
+var infos = document.querySelector("#contactForm")
 
-contact.addEventListener("click", function(event) {
+action.addEventListener("click", function(event) {
 	event.preventDefault();
 
-	var erros = validateForm(contact);
+	var erros = validateForm(action);
 	console.log(erros);
 	console.log(sendForm)
 
@@ -11,7 +12,7 @@ contact.addEventListener("click", function(event) {
 		exibeErro(erros);
 		return;
 	}else if(erros.length == 0) {
-		sendForm();
+		sendForm(infos);
 	}
 
 	var errorMessage = document.querySelector("#error-message");
@@ -19,8 +20,8 @@ contact.addEventListener("click", function(event) {
 
 })
 
-function sendForm(contact) {
-	contact.submit();
+function sendForm(action) {
+	infos.submit();
 }
 
 function exibeErro(erros){
@@ -34,7 +35,7 @@ function exibeErro(erros){
 	});
 }
 
-function validateForm(contact) {
+function validateForm(action) {
 
 	var erros = [];
 
