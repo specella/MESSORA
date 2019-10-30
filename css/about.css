@@ -22,7 +22,8 @@
 	align-items: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 35%;
+	margin-top: 40%;
+	margin-bottom: 5%;
 	clear: both;
 	box-sizing: border-box;
 }
@@ -39,21 +40,25 @@
 	border: .25rem solid #ffffff;
 	width: 25ch;
 	box-sizing: border-box;
-	margin: 1em 2em;
+	margin: 1.5em 2em;
 	padding: 1em;
+	outline: none;
 }
 .quote:nth-of-type(odd) {
 	float: left;
+	text-align: left;
 }
 .quote:nth-of-type(even) {
 	float: right;
+	text-align: right;
 }
 .quote:hover,
 .quote:focus {
 	text-shadow: 0 0 3px white;
-	transition-delay: .4s;
+	transition-delay: .1s;
 }
 cite {
 	font-style: italic;
 	float: right;
+	line-height: 2em;
 }
