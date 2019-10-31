@@ -68,12 +68,3 @@
 	transition: background-color 2s, color 1s;
 	color: black;
 }
-a {
-	text-decoration: none;
-	color: inherit;
-}
-a:hover,
-a:focus {
-	text-shadow: 0 0 3px white;
-	transition-delay: .1s;
-}
