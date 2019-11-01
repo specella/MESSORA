@@ -23,23 +23,23 @@
 	float: left;
 }
 .spotify {
-	background-image: url(../img/spotify.png);
+	background-image: url(../img/spotify.svg);
 	background-repeat: no-repeat;
 }
 .itunes {
-	background-image: url(../img/itunes.png);
+	background-image: url(../img/itunes.svg);
 	background-repeat: no-repeat;
 }
 .youtube {
-	background-image: url(../img/youtube.png);
+	background-image: url(../img/youtube.svg);
 	background-repeat: no-repeat;
 }
 .amazon {
-	background-image: url(../img/amazon.png);
+	background-image: url(../img/amazon.svg);
 	background-repeat: no-repeat;
 }
 .songwhip {
-	background-image: url(../img/songwhip.png);
+	background-image: url(../img/songwhip.svg);
 	background-repeat: no-repeat;
 }
 .platform-icons {
@@ -51,7 +51,7 @@
 .platform-icons li a:focus {
 	opacity: .5;
 		filter: alpha(opacity=50);
-	box-shadow: 3px 0 2px white;
+	box-shadow: 2px 0 2px white;
 	border-radius: 50%;
 }
 .platform-icons li {
@@ -62,6 +62,7 @@
 	width: 50px;
 	height: 50px;
 	text-indent: -9999px;
+	padding-right: 5px; 
 }
 main {
 	padding-bottom: 80px;
