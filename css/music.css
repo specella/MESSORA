@@ -53,6 +53,7 @@
 		filter: alpha(opacity=50);
 	box-shadow: 2px 0 2px white;
 	border-radius: 50%;
+	transition: .3s;
 }
 .platform-icons li {
 	display: inline-block;
