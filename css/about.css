@@ -37,10 +37,10 @@
                         transparent););
 	background-size: 20px 20px;
 	background-attachment: fixed;	
-	border: .25rem solid #ffffff;
+	border: .15rem solid #ffffff;
 	width: 25ch;
 	box-sizing: border-box;
-	margin: 1.5em 2em;
+	margin: 1.5em 1.7em;
 	padding: 1em;
 	outline: none;
 }
